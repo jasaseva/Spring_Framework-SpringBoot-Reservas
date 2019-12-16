@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.negocio.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.jaiber.ereservation.modelo.Cliente;
+
+/**
+ * Interface para definir las operaciones de bd relacionadas con Cliente
+ * 
+ * @author jsernai
+ *
+ */
+public interface ClienteRepository extends JpaRepository<Cliente, String> {
+
+	/**
+	 * 
+	 * [Descripción corta]
+	 * <p>
+	 * [Descripción corta]
+	 *
+	 * @author <a href="http://www.comfenalcoantioquia.com">comfenalco antioquia</a> jsernai
+	 */
+	public List<Cliente> findByApellido(String apellido);
+
+	/**
+	 * Definicion de metodo para buscar el cliente por identificacion
+	 * 
+	 * @param identificacion
+	 * @return
+	 */
+	public Cliente findByIdentificacion(String identificacion);
+}

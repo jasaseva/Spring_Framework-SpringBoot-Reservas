@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.negocio.repository;
+
+/**
+ * @author jsernai
+ *
+ */
+public interface ClienteRepository {
+
+}

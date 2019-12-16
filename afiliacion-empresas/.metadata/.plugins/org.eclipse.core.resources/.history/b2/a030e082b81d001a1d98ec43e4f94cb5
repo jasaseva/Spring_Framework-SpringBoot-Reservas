@@ -1,0 +1,14 @@
+package com.jaiber.ereservation.util;
+
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * Clase para configurar Swagger
+ * @author jsernai
+ *
+ */
+@Configuration
+
+public class SwaggerConfiguration {
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.negocio.services;
+
+/**
+ * @author jsernai
+ *
+ */
+public class ClienteService {
+
+}

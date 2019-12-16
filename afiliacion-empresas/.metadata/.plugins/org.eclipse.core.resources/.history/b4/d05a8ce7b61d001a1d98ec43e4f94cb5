@@ -1,0 +1,5 @@
+package com.jaiber.ereservation.util;
+
+public class SwaggerConfiguration {
+
+}

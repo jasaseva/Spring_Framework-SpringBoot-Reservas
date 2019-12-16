@@ -1,0 +1,16 @@
+package com.jaiber.ereservation.util;
+
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * Clase para configurar Swagger
+ * @author jsernai
+ *
+ */
+@Configuration
+@EnableSwagger2
+public class SwaggerConfiguration {
+
+}

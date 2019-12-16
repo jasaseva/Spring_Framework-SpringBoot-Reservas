@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.negocio.services;
+
+/**
+ * Clase para definir los servicios de cliente
+ * @author jsernai
+ *
+ */
+/**
+ * @Repository y @Service son especializaciones de @Component, añadiendo un valor semántico que indica la utilidad de la clase anotada (@Repository
+ *             para acceso a BD y @Service para la capa de negocio).
+ */
+@Service
+public class ClienteService {
+
+}

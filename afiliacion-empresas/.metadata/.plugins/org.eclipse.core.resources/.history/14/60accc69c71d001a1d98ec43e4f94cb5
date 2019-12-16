@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.vista.resources;
+
+/**
+ * Clase que representa el servicio web de cliente
+ * 
+ * @author jsernai
+ *
+ */
+public class ClienteResource {
+
+}

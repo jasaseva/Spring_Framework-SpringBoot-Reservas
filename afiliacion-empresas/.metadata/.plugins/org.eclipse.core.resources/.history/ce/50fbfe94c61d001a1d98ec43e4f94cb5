@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.vista.resources;
+
+/**
+ * @author jsernai
+ *
+ */
+public class ClienteResource {
+
+}

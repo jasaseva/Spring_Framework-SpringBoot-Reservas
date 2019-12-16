@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.negocio.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.jaiber.ereservation.modelo.Cliente;
+
+/**
+ * Interface para definir las operaciones de bd relacionadas con Cliente
+ * 
+ * @author jsernai
+ *
+ */
+public interface ClienteRepository extends JpaRepository<Cliente, String>{
+
+}

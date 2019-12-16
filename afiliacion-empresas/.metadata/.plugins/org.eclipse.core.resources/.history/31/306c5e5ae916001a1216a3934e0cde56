@@ -1,0 +1,44 @@
+/**
+ * 
+ */
+package com.jaiber.ereservation.negocio.services;
+
+import org.springframework.stereotype.Service;
+
+import com.jaiber.ereservation.negocio.repository.ClienteRepository;
+
+/**
+ * Clase para definir los servicios de cliente
+ * @author jsernai
+ *
+ */
+
+/**
+ * Como bien dice la documentación de Spring, @Component es el estereotipo principal e indica que una clase con esta anotación es un component o Bean
+ * de Spring.
+ * 
+ * @Repository, @Service y @Controller son especificaciones de la anotación @Component para casos concretos, por ejemplo, para la persistencia de
+ * datos, servicios o para la capa de presentación respectivamente.
+ * 
+ * Por lo tanto, puedes anotar tus beans con la anotación @Component, pero al anotarlas con @Repository, @Service o @Controller obtendrás beneficios
+ * adicionales ya que algunos de los Spring modules procesan de manera distinta estas anotaciones.
+ * 
+ * Generalmente puedes utilitzar una en lugar de otra, pero no es recomendado que lo hagas.
+ * 
+ * Spring ofrece una serie de anotaciones estándar para los objetos de nuestra aplicación: por ejemplo, @Service indica que la clase es un bean de la
+ * capa de negocio, mientras que @Repository indica que es un DAO. Si simplemente queremos especificar que algo es un bean sin decir de qué tipo es
+ * podemos usar la anotación @Component
+ */
+@Service
+public class ClienteService {
+	private final ClienteRepository clienteRepository;
+
+	public ClienteService(ClienteRepository clienteRepository) {
+		this.clienteRepository = clienteRepository;
+	}
+
+	public Cliente create(Cliente cliente) {
+
+	}
+
+}
